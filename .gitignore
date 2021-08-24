@@ -1,0 +1,6 @@
+# Project exclude paths
+/builds/debug/
+/builds/release/
+/build/
+.idea
+.DS_Store
