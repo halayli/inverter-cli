@@ -32,9 +32,9 @@ main(int argc, const char** argv)
     CLI11_PARSE(app, argc, argv)
 
     setup_logging(app["logpath"]->as<std::string>());
-
     // can be read from cli if this ends up used in other projects
-    static const iv::RegisterRanges reg_ranges{{{15201, 21}, {20101, 17}, {25201, 79}}};
+    static const iv::RegisterRanges reg_ranges{
+        {{15201, 21}, {20000, 16}, {20101, 43}, {25201, 79}}};
 
     iv::ModbusRtuStreamer streamer(app["device-id"]->as<uint8_t>(),
                                    {app["host"]->as<std::string>(), app["port"]->as<uint16_t>()},

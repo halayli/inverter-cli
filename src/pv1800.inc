@@ -105,7 +105,6 @@
 {25240, 1, "NLineRelayStateNo"},
 {25241, 1, "DcRelayStateNo"},
 {25242, 1, "EarthRelayStateNo"},
-/*
 {25245, 1, "AccumChrPowerH", "W-High"},
 {25246, 1, "AccumChrPowerL", "W-Low"},
 {25247, 1, "AccumDisChrPowerH", "W-High"},
@@ -122,7 +121,6 @@
 {25258, 1, "AccumPvsellPowerL", "W-Low"},
 {25259, 1, "AccumGridChrPowerH", "W-High"},
 {25260, 1, "AccumGridChrPowerL", "W-Low"},
- */
 {25261, 1, "Error1"},
 {25262, 1, "Error2"},
 {25263, 1, "Error3"},
