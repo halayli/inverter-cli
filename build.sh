@@ -12,6 +12,7 @@ apt install -y --no-install-recommends  \
   libc++-12-dev \
   libc++abi1-12 \
   libc++abi-12-dev \
+  libunwind-12-dev \
   ninja-build \
   lld-12
 
